@@ -1,7 +1,7 @@
 INDEX VERSION 1.131+/Users/deondaigh/Documents/CIS171WorkSpace/.metadata/.plugins/org.eclipse.jdt.core
-<<<<<<< HEAD
 4089701853.index
 329401949.index
+1599438126.index
 1233779531.index
 3918750396.index
 555929916.index
@@ -12,16 +12,13 @@ INDEX VERSION 1.131+/Users/deondaigh/Documents/CIS171WorkSpace/.metadata/.plugin
 1865797976.index
 3696647694.index
 4131718557.index
-2252420987.index
-2012739359.index
 1424594129.index
+2012739359.index
+2252420987.index
 4249277600.index
 2649630139.index
-3897315211.index
+2803094142.index
 3988490319.index
 1612426301.index
-2803094142.index
+3897315211.index
 3927879410.index
-=======
-1865797976.index
->>>>>>> main
