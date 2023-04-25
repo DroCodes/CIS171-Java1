@@ -19,6 +19,10 @@ public class PizzaTesterDaigh {
 		
 		System.out.println(printMyOrder);
 		System.out.println(printYourOrder);
+		
+		yourPizza.getOvenTemperature();
+		System.out.println(yourPizza.prepareIngredients());
+		System.out.println("Ready for the Oven: " + yourPizza.readyForOven());
 	}
 
 }
