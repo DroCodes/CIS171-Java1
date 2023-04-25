@@ -5,7 +5,7 @@
 * Apr 15, 2023
 * MacOS 13.2
 */
-public class Pizza {
+public class Pizza implements Cookable {
 	private String toppings;
 	private String size;
 	private double price;
@@ -62,5 +62,24 @@ public class Pizza {
 		String order = "You ordered a " + getSize() + " " + getToppings() + " Pizza for " + getPrice();
 		
 		return order;
+	}
+
+	@Override
+	public double getOvenTemperature() {
+		return 425;
+	}
+	
+	@Override
+	public String prepareIngredients() {
+		return "Ingredients: " + this.toppings + ", sauce, cheese, special seasonings";
+	}
+	
+	@Override
+	public boolean readyForOven() {
+		if (prepareIngredients() != null) {
+			return true;
+		} else {
+			return false;
+		}
 	}
 }
